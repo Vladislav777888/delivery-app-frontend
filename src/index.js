@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import './index.css';
 
 import { App } from 'components/App';
-import { theme } from 'theme';
+import { theme } from './theme';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>

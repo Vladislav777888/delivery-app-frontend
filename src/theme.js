@@ -1,7 +1,9 @@
-export const theme = {
+import { createTheme } from '@mui/material';
+
+export const theme = createTheme({
   colors: {
     main_background_color: '#ffffff',
-    secondary_background_color: 'rgba(0, 0, 0, 0.561)',
+    secondary_background_color: '#d2d5ff',
     input_background_color: 'rgba(0, 0, 0, 0)',
     main_text_color: '#000000',
     text_color_white: '#ffffff',
@@ -12,35 +14,35 @@ export const theme = {
     grey: '#8c8c8c',
     footer_text: '#545454',
   },
-  space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
-  fonts: {
-    body: 'system-ui, sans-serif',
-    heading: 'system-ui, sans-serif',
-    monospace: 'Menlo, monospace',
-  },
-  fontSizes: {
-    xs: '12px',
-    s: '14px',
-    m: '16px',
-    ml: '20px',
-    l: '32px',
-    xl: '64px',
-  },
-  fontWeights: {
-    normal: 400,
-    bold: 700,
-  },
-  lineHeights: {
-    body: 1.5,
-    heading: 1.125,
-  },
-  borders: {
-    none: 'none',
-    normal: '1px solid',
-  },
+  // space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
+  // fonts: {
+  //   body: 'system-ui, sans-serif',
+  //   heading: 'system-ui, sans-serif',
+  //   monospace: 'Menlo, monospace',
+  // },
+  // fontSizes: {
+  //   xs: '12px',
+  //   s: '14px',
+  //   m: '16px',
+  //   ml: '20px',
+  //   l: '32px',
+  //   xl: '64px',
+  // },
+  // fontWeights: {
+  //   normal: 400,
+  //   bold: 700,
+  // },
+  // lineHeights: {
+  //   body: 1.5,
+  //   heading: 1.125,
+  // },
+  // borders: {
+  //   none: 'none',
+  //   normal: '1px solid',
+  // },
   radii: {
     none: '0',
-    normal: '4px',
+    normal: '7px',
     round: '50%',
   },
-};
+});
